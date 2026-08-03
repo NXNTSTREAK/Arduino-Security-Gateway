@@ -2,6 +2,12 @@
 
 A small embedded systems project built on an Arduino Nano.
 
+
+<p align="center">
+  <img src="images/demo2.gif" width="350">
+</p>
+
+
 This project uses two different sensors to detect not only the presence of a person, but also the direction of movement. By combining an IR sensor and a PIR motion sensor, the system can determine whether someone is entering or exiting a monitored area.
 
 The goal of this project was to explore finite state machines (FSMs), sensor integration, and real-time event handling in embedded systems.
@@ -52,6 +58,15 @@ Using a finite state machine allows the system to remember previous events and i
 | GND | GND | - | Ground |
 
 ---
+
+## Circuit Setup
+
+<p align="center">
+  <img src="images/circuit.jpg" width="350">
+</p>
+
+---
+
 
 ## How It Works
 
@@ -105,6 +120,14 @@ The firmware normalizes these signals before processing them through the state m
 
 ---
 
+## Output
+
+<p align="center">
+  <img src="images/output.jpeg" width="350">
+</p>
+
+---
+
 ## Engineering Challenge
 
 One of the biggest challenges was handling the HC-SR501 PIR sensor.
@@ -132,8 +155,10 @@ This project helped me gain practical experience with:
 - Real-time event processing
 - State-based software design
 - Arduino programming
-
+  
 ---
+
+
 
 ## Future Improvements
 
